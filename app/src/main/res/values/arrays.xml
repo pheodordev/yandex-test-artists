@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="text_tracks">
+        <item>@string/text_tracks_0</item>
+        <item>@string/text_tracks_1</item>
+        <item>@string/text_tracks_2</item>
+        <item>@string/text_tracks_3</item>
+    </string-array>
+
+    <string-array name="text_albums">
+        <item>@string/text_albums_0</item>
+        <item>@string/text_albums_1</item>
+        <item>@string/text_albums_2</item>
+        <item>@string/text_albums_3</item>
+    </string-array>
+</resources>

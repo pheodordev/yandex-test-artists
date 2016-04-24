@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Yandex Test Artists</string>
+    <string name="title_main">Исполнители</string>
+    <string name="title_loading">Загрузка</string>
+    <string name="title_description">Биография</string>
+    <string name="menu_refresh">Обновить данные</string>
+    <string name="text_error">Ошибка загрузки данных.</string>
+    <string name="text_disconnected">Отсутствует доступ в интернет.</string>
+    <string name="text_empty">нет данных</string>
+    <string name="text_loading">Пожалуйста, подождите...</string>
+    <string name="text_tracks_0">песен нет</string>
+    <string name="text_tracks_1">%d песня</string>
+    <string name="text_tracks_2">%d песни</string>
+    <string name="text_tracks_3">%d песен</string>
+    <string name="text_albums_0">альбомов нет</string>
+    <string name="text_albums_1">%d альбом</string>
+    <string name="text_albums_2">%d альбома</string>
+    <string name="text_albums_3">%d альбомов</string>
+    <string name="text_stats_list">%1$s, %2$s</string>
+    <string name="text_stats_single">%1$s &#160;&#160;&#8226;&#160;&#160; %2$s</string>
+</resources>

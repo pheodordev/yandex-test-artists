@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <com.loopj.android.image.SmartImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_marginRight="15dp"
+        android:id="@+id/cover" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/info">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_alignParentTop="true"
+            android:textSize="18sp"
+            android:textColor="@color/colorListName"
+            android:text="@string/text_empty"
+            android:id="@+id/name" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/genres"
+            android:text="@string/text_empty"
+            android:layout_below="@id/name"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:textColor="@color/colorListInfo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tracks"
+            android:text="@string/text_empty"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/colorListInfo" />
+
+    </RelativeLayout>
+
+</LinearLayout>
